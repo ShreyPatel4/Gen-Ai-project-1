@@ -56,27 +56,27 @@ Introduce a learning rate scheduler to dynamically adjust the learning rate duri
 Task Breakdown:
 
 
-1. Image Feature Extraction
-Task 1.1: Implement Inception V3 and DenseNet as feature extractors.
-Task 1.2: Cache embeddings and visualize feature spaces using PCA/TSNE.
-Task 1.3: Optimize extraction with GPU batching and efficient memory handling.
-2. RNN Development (LSTM/GRU with Attention)
-Task 2.1: Implement LSTM and GRU models with attention mechanisms.
-Task 2.2: Optimize memory with mixed precision training and gradient checkpointing.
-Task 2.3: Conduct error analysis and track mismatches in generated captions.
-3. LLM Integration
-Task 3.1: Integrate a Large Language Model for caption generation.
-Task 3.2: Compare LLM-generated captions with LSTM/GRU captions using BLEU and semantic similarity metrics.
-4. Evaluation and Visualization
-Task 4.1: Implement BLEU score and semantic similarity evaluation for all models.
-Task 4.2: Create visualizations for attention weights, embedding spaces, and side-by-side caption comparisons.
-Task 4.3: Visualize resource usage and compare model performance across memory and inference time.
-5. Training Recovery Mechanism
-Task 5.1: Implement model checkpointing after every epoch or batch.
-Task 5.2: Develop automatic crash recovery to resume from the last saved checkpoint in the event of a failure.
-Task 5.3: Ensure file integrity checks are in place to validate checkpoint files.
-Task 5.4: Set up asynchronous checkpoint saving to minimize performance impact during training.
-6. Hyperparameter Tuning and Scalability
-Task 6.1: Implement hyperparameter tuning based on dataset size.
-Task 6.2: Ensure multi-GPU support for scaling larger datasets and more complex models.
-Task 6.3: Use a learning rate scheduler to adjust learning rates dynamically based on validation performance.
+1. Image Feature Extraction <br>
+Task 1.1: Implement Inception V3 and DenseNet as feature extractors.<br>
+Task 1.2: Cache embeddings and visualize feature spaces using PCA/TSNE.<br>
+Task 1.3: Optimize extraction with GPU batching and efficient memory handling.<br><br>
+2. RNN Development (LSTM/GRU with Attention)<br>
+Task 2.1: Implement LSTM and GRU models with attention mechanisms.<br>
+Task 2.2: Optimize memory with mixed precision training and gradient checkpointing<br>
+Task 2.3: Conduct error analysis and track mismatches in generated captions.<br><br>
+3. LLM Integration <br>
+Task 3.1: Integrate a Large Language Model for caption generation. <br>
+Task 3.2: Compare LLM-generated captions with LSTM/GRU captions using BLEU and semantic similarity metrics. <br><br>
+4. Evaluation and Visualization <br>
+Task 4.1: Implement BLEU score and semantic similarity evaluation for all models. <br>
+Task 4.2: Create visualizations for attention weights, embedding spaces, and side-by-side caption comparisons. <br>
+Task 4.3: Visualize resource usage and compare model performance across memory and inference time. <br><br>
+5. Training Recovery Mechanism <br>
+Task 5.1: Implement model checkpointing after every epoch or batch. <br>
+Task 5.2: Develop automatic crash recovery to resume from the last saved checkpoint in the event of a failure. <br>
+Task 5.3: Ensure file integrity checks are in place to validate checkpoint files. <br>
+Task 5.4: Set up asynchronous checkpoint saving to minimize performance impact during training. <br><br>
+6. Hyperparameter Tuning and Scalability <br>
+Task 6.1: Implement hyperparameter tuning based on dataset size. <br>
+Task 6.2: Ensure multi-GPU support for scaling larger datasets and more complex models. <br>
+Task 6.3: Use a learning rate scheduler to adjust learning rates dynamically based on validation performance. <br>
