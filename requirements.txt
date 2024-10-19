@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+nltk
+gensim
+scikit-learn
+matplotlib
+tqdm
+psutil
+GPUtil
+Pillow
+
