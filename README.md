@@ -174,12 +174,3 @@ Develop a high-performance, memory-efficient image captioning system using a CNN
 
 - **Task 7.3:** Integrate a learning rate scheduler to adjust learning rates dynamically during training epochs.
 
----
-
-## Conclusion
-
-By addressing these tasks, the project aims to develop a comprehensive image captioning system that is not only performant but also robust against potential training interruptions. The integration of advanced evaluation metrics and visualization tools will provide deeper insights into model performance and areas for improvement. Comparing traditional RNN-based models with LLMs will also highlight the strengths and limitations of each approach in the context of image captioning.
-
----
-
-**Note:** This README reflects the current project objectives and tasks, incorporating recent changes and updates to ensure clarity and alignment with our development goals.
