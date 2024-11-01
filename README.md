@@ -2,7 +2,7 @@
 
 ## Objective
 
-Develop a high-performance, memory-efficient image captioning system using a CNN-RNN architecture, specifically leveraging **ResNet50** for feature extraction and both **LSTM** and **GRU** models for sequence generation with attention mechanisms. Implement a robust training recovery mechanism to handle potential crashes and automatically resume from the last saved state. Ensure GPU utilization, memory optimization, and extensive visualization for comparative analysis, including comparisons with a Large Language Model (LLM). The system will generate captions and evaluate them using BLEU, CIDEr, METEOR, and ROUGE scores, as well as semantic similarity metrics.
+Developed a high-performance **Distributed Data Parallel** arch, that is memory-efficient image captioning system using a CNN-RNN architecture, specifically leveraging **DenseNet156**,**InceptionV3**,**ResNet50** for feature extraction and both **LSTM** and **GRU** models for sequence generation with attention mechanisms. Implement a robust training recovery mechanism to handle potential crashes and automatically resume from the last saved state. Ensure GPU node's utilization, memory optimization, and extensive visualization for comparative analysis, including comparisons with a Large Language Model (LLM). The system will generate captions and evaluate them using BLEU, CIDEr, METEOR, and ROUGE scores, as well as semantic similarity metrics.
 
 ## Core Requirements
 
@@ -12,7 +12,7 @@ Develop a high-performance, memory-efficient image captioning system using a CNN
   - Utilize PyTorch's automatic mixed precision to improve GPU performance and reduce memory usage.
 
 - **Gradient Checkpointing:**
-  - Implement gradient checkpointing to lower memory consumption during backpropagation, especially for large datasets like MSCOCO.
+  - Implement gradient checkpointing to lower memory consumption during backpropagation, especially for large datasets like LAION COCO: 600M SYNTHETIC CAPTIONS FROM LAION2B-EN (working in this dataset currently using DDP).
 
 - **Efficient Batch Processing and Embedding Caching:**
   - Cache image embeddings to prevent redundant computations.
